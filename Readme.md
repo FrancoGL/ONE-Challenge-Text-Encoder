@@ -7,6 +7,7 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
 - [Build With](#build-with)
 - [Contact](#contact)
@@ -27,5 +28,5 @@
 * Javascript
 * Mobile-first workflow
 ## Contact
-[GitHub](https://github.com/FrancoGL)
-[LinkedIn](https://www.linkedin.com/in/franco-lorca/)
+* [GitHub](https://github.com/FrancoGL)
+* [LinkedIn](https://www.linkedin.com/in/franco-lorca/)
