@@ -1,4 +1,4 @@
-<h1 align="center">404 Not Found Page</h1>
+<h1 align="center">Text Encoder</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank">ONE - Oracle Next Education</a>.
