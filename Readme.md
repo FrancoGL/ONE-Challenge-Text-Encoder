@@ -1,11 +1,12 @@
+<img src="https://i.imgur.com/3ps9Mds.png">
 <h1 align="center">Text Encoder</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank">ONE - Oracle Next Education</a>.
 </div>
+
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
 - [Build With](#build-with)
 - [Contact](#contact)
