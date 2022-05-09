@@ -7,7 +7,6 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
 - [Build With](#build-with)
 - [Contact](#contact)
