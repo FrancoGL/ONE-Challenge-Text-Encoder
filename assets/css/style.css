@@ -119,6 +119,22 @@
     margin-bottom: 0;
 }
 
+.attribution__link {
+    text-decoration: none;
+}
+
+.attribution__link:link {
+    color: #0A3871;
+}
+
+.attribution__link:active {
+    color: #0A3871;
+}
+
+.attribution__link:visited {
+    color: #0A3871;
+}
+
 @media screen and (min-width: 768px) {
 
     .main__input {
