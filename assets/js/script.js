@@ -1,4 +1,4 @@
-import { checkInput, userInput } from "./check-input.js";
+import { check_input, userInput } from "./check_input.js";
 import { encode, btnEncoder } from "./encode.js";
 import { decode, btnDecoder } from "./decode.js";
 let outputTextContent = document.getElementById("output--text");
@@ -7,7 +7,7 @@ let btnCopy;
 
 // Check input event handler
 userInput.addEventListener("input", (inputText) => {
-  checkInput(inputText);
+  check_input(inputText);
 });
 
 // Generate Image Element
@@ -76,11 +76,12 @@ btnDecoder.addEventListener("click", () => {
   }
 });
 
-
 const copyToClipboard = () => {
   let actualText = outputTextContent.innerText;
-  navigator.clipboard.writeText(actualText);
-  btnCopy.innerText = "Copied";
+  navigator.clipboard.writeText(actualText)
+      .then(()=> {
+        btnCopy.innerText = "Copied"
+      });
 };
 
 const copyEvent = () => {

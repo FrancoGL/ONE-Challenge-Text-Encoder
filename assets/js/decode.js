@@ -1,7 +1,6 @@
-import {userInput} from './check-input.js';
+import {userInput} from './check_input.js';
 import {encryptionGroup} from './encode.js';
 export let btnDecoder = document.getElementById("btn-decoder")
-
 
 export const decode = (text) => {
 
