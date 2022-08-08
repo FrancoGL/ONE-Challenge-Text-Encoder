@@ -1,0 +1,15 @@
+.header {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.header__logo {
+  width: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+}
