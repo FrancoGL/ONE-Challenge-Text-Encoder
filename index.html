@@ -8,15 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap"
           rel="stylesheet">
+    <!-- Reset and Normalize   -->
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!--  Styles  -->
+    <link rel="stylesheet" href="assets/scss/pages/index.css" type="text/css">
 </head>
 <body class="container">
 <header class="header">
     <img class="header__logo" src="./assets/img/logo.svg" alt="Alura Logo">
 </header>
 <main class="main">
-    <textarea class="main__input" name="input" id="input__area" cols="30" rows="10" placeholder="Enter text here"></textarea>
+    <textarea class="main__input" name="input" id="input__area" cols="30" rows="10"
+              placeholder="Enter text here"></textarea>
     <div class="warning">
         <img class="warning__img" src="./assets/img/info.svg" alt="Warning image">
         <p class="warning__text" id="warning">Only lower characters and without accent mark</p>
@@ -31,8 +35,9 @@
     <p class="output__text" id="output--text">Enter the text that you do want to encoding o decoding</p>
 </section>
 <footer class="footer">
-    <p class="attribution__text">Oracle ONE - Challenge by <a href="https://github.com/FrancoGL" class="attribution__link" target="_blank">FrancoGL</a></p>
+    <p class="attribution__text">Oracle ONE - Challenge by <a href="https://github.com/FrancoGL"
+                                                              class="attribution__link" target="_blank">FrancoGL</a></p>
 </footer>
-<script type="module" src="./assets/js/script.js"></script>
+<script type="module" src="./assets/js/index.js"></script>
 </body>
 </html>

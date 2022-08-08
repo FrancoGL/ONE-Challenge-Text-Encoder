@@ -1,0 +1,27 @@
+@use "../../settings/colors" as color;
+
+.warning {
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.warning__img {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.warning__text {
+  margin: 0;
+  font-size: 12px;
+}
+
+.warning__text--highlight {
+  color: color.$fourth-color;
+}
+
+@media screen and (min-width: 1024px) {
+  .warning {
+    margin-bottom: 0.5rem;
+  }
+}

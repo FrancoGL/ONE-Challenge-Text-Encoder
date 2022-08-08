@@ -1,0 +1,30 @@
+@use "buttons_btn";
+
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .buttons {
+    margin-left: 5rem;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .buttons {
+    margin-left: 11rem;
+  }
+}

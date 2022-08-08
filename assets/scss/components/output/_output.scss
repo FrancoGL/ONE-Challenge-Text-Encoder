@@ -1,0 +1,39 @@
+.output {
+  margin-top: 1rem;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.output__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.output__text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .output {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 15rem;
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+  }
+
+  .output__doll {
+    display: block;
+    width: 100%;
+  }
+}
