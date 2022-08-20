@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text encoder</title>
+    <!-- Icon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/alura-logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="body">
+    <header class="header">
+      <img
+        src="./assets/icons/alura-logo.svg"
+        alt="Alura Logo"
+        class="img__logo"
+      />
+    </header>
+    <main class="content">
+      <section class="input__container">
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Enter text here to encode"
+        ></textarea>
+        <div class="warning">
+          <img src="./assets/icons/warning.svg" alt="Warning icon" class="warning__img">
+          <p class="warning__text">Only lowercase letters without special characters</p>
+        </div>
+      </section>
+      <section class="btn__container">
+        <button class="btn btn-encoder">Encoder</button>
+        <button class="btn btn-decoder">Decoder</button>
+      </section>
+      <section class="result__container">
+        <p class="result__title">Any message found</p>
+        <p class="result__text">Enter the text that you do want encoder or decoder</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="attribution">Challenge by <a href="#">FrancoGL</a></p>
+    </footer>
+  </body>
 </html>
