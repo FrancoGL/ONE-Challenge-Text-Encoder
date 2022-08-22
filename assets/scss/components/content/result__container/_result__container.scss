@@ -19,6 +19,16 @@
 @media screen and (min-width: 1024px) {
   .result__container {
     width: 15rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
     grid-area: result;
+  }
+
+  .result__doll {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
 }

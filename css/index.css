@@ -131,6 +131,10 @@
     height: 3.5rem;
     border-radius: 1.5rem;
   }
+  .btn-decoder:hover {
+    background-color: #d8dfe8;
+    transition: 0.5s ease-in-out;
+  }
 }
 .result__container {
   margin-bottom: 1.5rem;
@@ -150,7 +154,16 @@
 @media screen and (min-width: 1024px) {
   .result__container {
     width: 15rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
     grid-area: result;
+  }
+  .result__doll {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
 }
 .footer {
