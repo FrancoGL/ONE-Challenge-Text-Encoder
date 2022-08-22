@@ -72,6 +72,11 @@
   margin-right: 0.5rem;
 }
 
+.active {
+  font-weight: 700;
+  color: darkred;
+}
+
 @media screen and (min-width: 768px) {
   .input__container {
     height: 34.25rem;
