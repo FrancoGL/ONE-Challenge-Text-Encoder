@@ -1,0 +1,50 @@
+@use "../../../config/colors" as color;
+
+.btn__container {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  height: 4.188rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.btn-encoder {
+  margin-bottom: 1rem;
+  background-color: color.$primary-color;
+  color: color.$primary-default-color;
+}
+
+.btn-decoder {
+  background-color: transparent;
+  border: 2px solid color.$primary-color;
+  color: color.$primary-color;
+}
+
+@media screen and (min-width: 768px) {
+  .btn__container {
+    flex-flow: row nowrap;
+    gap: 1rem;
+  }
+
+  .btn {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn__container {
+    margin-left: 5rem;
+    grid-area: btn;
+    gap: 2rem;
+  }
+
+  .btn {
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 1.5rem;
+  }
+}

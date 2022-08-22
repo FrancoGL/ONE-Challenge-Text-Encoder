@@ -21,7 +21,8 @@
     <!-- Reset and normalize -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
-    <!--  -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body class="body">
     <header class="header">
@@ -36,9 +37,9 @@
         <textarea
           name="textarea"
           id="textarea"
-          cols="30"
-          rows="10"
-          placeholder="Enter text here to encode"
+          
+          placeholder="Enter text here"
+          class="textarea"
         ></textarea>
         <div class="warning">
           <img
@@ -51,19 +52,19 @@
           </p>
         </div>
       </section>
-      <section class="btn__container">
-        <button class="btn btn-encoder">Encoder</button>
-        <button class="btn btn-decoder">Decoder</button>
-      </section>
-      <section class="result__container">
-        <p class="result__title">Any message found</p>
-        <p class="result__text">
-          Enter the text that you do want encoder or decoder
-        </p>
-      </section>
     </main>
+    <section class="btn__container">
+      <button class="btn btn-encoder">Encoder</button>
+      <button class="btn btn-decoder">Decoder</button>
+    </section>
+    <section class="result__container">
+      <p class="result__title">Any message found</p>
+      <p class="result__text">
+        Enter the text that you do want encoding or decoding
+      </p>
+    </section>
     <footer class="footer">
-      <p class="attribution">Challenge by <a href="#">FrancoGL</a></p>
+      <p class="attribution">Challenge by <a href="#" class="attribution-link" target="_blank">FrancoGL</a></p>
     </footer>
   </body>
 </html>

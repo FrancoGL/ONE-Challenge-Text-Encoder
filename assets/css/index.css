@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 2.5rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header" "content" "footer";
+}
+
+.header {
+  grid-area: header;
+  margin-bottom: 7.513rem;
+}
+
+.img__logo {
+  display: block;
+  width: 1.943rem;
+}
+
+.input__container {
+  grid-area: component;
+  width: 34.25rem;
+}
+
+.textarea {
+  outline: none;
+}
+
+/*# sourceMappingURL=index.css.map */
