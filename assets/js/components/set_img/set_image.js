@@ -1,11 +1,9 @@
-const generateImageElement = () => {
-  let img = document.createElement("img");
-  img.id = "doll";
-  img.classList.add("result__doll");
-  img.alt = "doll image";
-  img.src = "./assets/img/doll.svg";
-  return img;
-};
+import { generateImageElement } from "./generate_img.js";
+
+/**
+ * Set image doll to "result__container" element
+ * Only if windowSize is greater or equal to 1024px
+ */
 
 export const setImageElement = () => {
   const $output = document.querySelector(".result__container")
