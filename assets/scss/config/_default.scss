@@ -1,0 +1,36 @@
+@use "./fonts" as font;
+@use "./colors" as color;
+
+.body {
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 1.5rem 1rem 2.5rem 1rem;
+  font-family: font.$font-family;
+  background-color: color.$fourth-color;
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    padding: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .body {
+    display: grid;
+    grid-template-columns: auto 25rem;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      "header result"
+      "input result"
+      "btn result"
+      "footer footer";
+    gap: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .body {
+    padding: 5rem;
+  }
+}

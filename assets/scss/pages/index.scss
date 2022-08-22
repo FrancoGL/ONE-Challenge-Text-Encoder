@@ -1,6 +1,4 @@
-@use "../settings/default";
+@use "../config/default";
 @use "../components/header/header";
-@use "../components/main/main";
-@use "../components/buttons/buttons";
-@use "../components/output/output";
+@use "../components/content/content";
 @use "../components/footer/footer";

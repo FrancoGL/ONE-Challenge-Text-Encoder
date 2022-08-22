@@ -1,15 +1,21 @@
 .header {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+  margin-bottom: 5rem;
 }
 
-.header__logo {
-  width: 1.5rem;
+.img__logo {
+  display: block;
+  width: 1.943rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 7.5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .header {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-area: header;
+    margin-bottom: 2.5rem;
   }
 }

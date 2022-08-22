@@ -1,0 +1,41 @@
+@use "../../../config/colors" as color;
+
+.result__container {
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: color.$primary-default-color;
+  border-radius: 2rem;
+  box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+.result__title {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.btn-copy {
+  height: 4.188rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: transparent;
+  border: 2px solid color.$primary-color;
+  color: color.$primary-color;
+}
+
+@media screen and (min-width: 1024px) {
+  .result__container {
+    width: 15rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    grid-area: result;
+  }
+
+  .result__doll {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
