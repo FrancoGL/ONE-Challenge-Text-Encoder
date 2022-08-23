@@ -1,3 +1,53 @@
-@use "./input__container/input__container";
 @use "./btn__container/btn__container";
 @use "./result__container/result__container";
+@use "../../config/colors" as color;
+
+.content {
+  height: 15.688rem;
+  margin-bottom: 3rem;
+}
+
+.textarea {
+  width: 100%;
+  height: inherit;
+  font-size: 2rem;
+  background-color: transparent;
+  color: color.$primary-color;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.warning {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 0.875rem;
+  color: color.$fifth-color;
+}
+
+.warning__img {
+  margin-right: 0.5rem;
+}
+
+.active {
+  font-weight: 700;
+  color: color.$sixth-color;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    height: 34.25rem;
+  }
+
+  .textarea {
+    height: inherit;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    margin-left: 5rem;
+    height: 20rem;
+    grid-area: input;
+  }
+}
